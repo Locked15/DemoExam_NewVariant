@@ -1,0 +1,36 @@
+C:\Users\Земфира\Desktop\Программа\bin\Release\41 размер.exe.config
+C:\Users\Земфира\Desktop\Программа\bin\Release\41 размер.exe
+C:\Users\Земфира\Desktop\Программа\bin\Release\41 размер.pdb
+C:\Users\Земфира\Desktop\Программа\bin\Release\EntityFramework.dll
+C:\Users\Земфира\Desktop\Программа\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Земфира\Desktop\Программа\bin\Release\EntityFramework.xml
+C:\Users\Земфира\Desktop\Программа\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Земфира\Desktop\Программа\bin\Release\ru\EntityFramework.resources.dll
+C:\Users\Земфира\Desktop\Программа\obj\Release\41 размер.csproj.AssemblyReference.cache
+C:\Users\Земфира\Desktop\Программа\obj\Release\41 размер.csproj.SuggestedBindingRedirects.cache
+C:\Users\Земфира\Desktop\Программа\obj\Release\UserControls\OrderListItem.g.cs
+C:\Users\Земфира\Desktop\Программа\obj\Release\UserControls\ProductListItem.g.cs
+C:\Users\Земфира\Desktop\Программа\obj\Release\Windows\EditWindows\EditProductWindow.g.cs
+C:\Users\Земфира\Desktop\Программа\obj\Release\Windows\MainWindow.g.cs
+C:\Users\Земфира\Desktop\Программа\obj\Release\Windows\EditWindows\OrderFormation.g.cs
+C:\Users\Земфира\Desktop\Программа\obj\Release\Windows\DisplayWindows\OrdersWindow.g.cs
+C:\Users\Земфира\Desktop\Программа\obj\Release\Windows\DisplayWindows\ProductsWindow.g.cs
+C:\Users\Земфира\Desktop\Программа\obj\Release\App.g.cs
+C:\Users\Земфира\Desktop\Программа\obj\Release\41 размер_Content.g.cs
+C:\Users\Земфира\Desktop\Программа\obj\Release\41 размер_MarkupCompile.cache
+C:\Users\Земфира\Desktop\Программа\obj\Release\41 размер_MarkupCompile.lref
+C:\Users\Земфира\Desktop\Программа\obj\Release\App.baml
+C:\Users\Земфира\Desktop\Программа\obj\Release\UserControls\OrderListItem.baml
+C:\Users\Земфира\Desktop\Программа\obj\Release\UserControls\ProductListItem.baml
+C:\Users\Земфира\Desktop\Программа\obj\Release\Windows\EditWindows\EditProductWindow.baml
+C:\Users\Земфира\Desktop\Программа\obj\Release\Windows\MainWindow.baml
+C:\Users\Земфира\Desktop\Программа\obj\Release\Windows\EditWindows\OrderFormation.baml
+C:\Users\Земфира\Desktop\Программа\obj\Release\Windows\DisplayWindows\OrdersWindow.baml
+C:\Users\Земфира\Desktop\Программа\obj\Release\Windows\DisplayWindows\ProductsWindow.baml
+C:\Users\Земфира\Desktop\Программа\obj\Release\41 размер.g.resources
+C:\Users\Земфира\Desktop\Программа\obj\Release\_41_размер.Properties.Resources.resources
+C:\Users\Земфира\Desktop\Программа\obj\Release\41 размер.csproj.GenerateResource.cache
+C:\Users\Земфира\Desktop\Программа\obj\Release\41 размер.csproj.CoreCompileInputs.cache
+C:\Users\Земфира\Desktop\Программа\obj\Release\41 размер.csproj.CopyComplete
+C:\Users\Земфира\Desktop\Программа\obj\Release\41 размер.exe
+C:\Users\Земфира\Desktop\Программа\obj\Release\41 размер.pdb

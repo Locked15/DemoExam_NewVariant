@@ -1,0 +1,87 @@
+﻿<Window x:Class="_41_размер.Windows.ProductsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_41_размер.Windows"
+        mc:Ignorable="d"
+        Title="Список товаров — 41 размер" 
+        Height="450" Width="800"
+        MinHeight="450" MinWidth="800"
+        SizeChanged="Window_SizeChanged"
+        Closing="Window_Closing">
+
+    <Grid Margin="2.5">
+        <!-- #region Область: Определения столбцов и строк. -->
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="7.5*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="300*"/>
+            <RowDefinition Height="50*"/>
+        </Grid.RowDefinitions>
+        <!-- #endregion -->
+
+        <!-- #region Область: Верхняя панель. -->
+
+        <Border Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="4" BorderBrush="Black" BorderThickness="2.5" />
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Поиск:" FontSize="16" />
+        <TextBox Name="SearchBox" Grid.Row="1" Grid.Column="0" Margin="5, 2.5, 2.5, 5" />
+
+        <TextBlock Grid.Row="0" Grid.Column="1" Text="Сортировка:" FontSize="16" />
+        <ComboBox Name="SelectSort" Grid.Row="1" Grid.Column="1" Margin="2.5, 2.5, 2.5, 5">
+            <ComboBoxItem Content="Без сортировки" />
+
+            <ComboBoxItem Content="По возрастанию:" IsEnabled="False" FontSize="18" />
+            <ComboBoxItem Content="Стоимость" />
+
+            <ComboBoxItem Content="Во убыванию:" IsEnabled="False" FontSize="18" />
+            <ComboBoxItem Content="Стоимость" />
+        </ComboBox>
+
+        <TextBlock Grid.Row="0" Grid.Column="2" Text="Фильтрация:" FontSize="16" />
+        <ComboBox Name="SelectFilter" Grid.Row="1" Grid.Column="2" Margin="2.5, 2.5, 2.5, 5">
+            <ComboBoxItem Content="Все диапазоны" />
+            
+            <ComboBoxItem Content="0 — 9,99%" />
+            <ComboBoxItem Content="10 — 14,99%" />
+            <ComboBoxItem Content="Более 15%" />
+        </ComboBox>
+
+        <TextBlock Grid.Row="0" Grid.Column="3" Text="Выведено:" FontSize="18" />
+        <TextBlock Name="CurrentProducts" Grid.Row="1" Grid.Column="3" FontSize="18" TextWrapping="Wrap" />
+        <!-- #endregion -->
+
+        <ListView Name="ProductsList" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4" MouseDoubleClick="ProductsList_MouseDoubleClick" />
+
+        <!-- #region Область: Нижняя панель. -->
+        
+        <Button Name="CurrentOrder_Button" Grid.Row="3" Grid.Column="0" Content="Текущий заказ" FontSize="18" Margin="2.5"
+                Click="CurrentOrder_Button_Click" />
+
+        <Button Name="AllOrders_Button" Grid.Row="3" Grid.Column="1" Content="Все заказы (Менеджер+)" Margin="2.5" FontSize="16" 
+                Click="AllOrders_Button_Click" />
+
+        <Button Name="CreateNewProduct_Button" Grid.Row="3" Grid.Column="2" Content="Добавить товар (Админ)" Margin="2.5" FontSize="16" 
+                Click="CreateNewProduct_Button_Click" />
+
+        <StackPanel Grid.Row="3" Grid.Column="3" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Name="GoToPreviousPage" Content="&lt;" Click="GoToPreviousPage_Click" FontSize="30" Background="Transparent" 
+                    BorderBrush="Transparent" MinWidth="35" />
+
+            <ComboBox Name="SelectPage" MinWidth="75" FontSize="30" />
+
+            <Button Name="GoToNextPage" Content="&gt;" Click="GoToNextPage_Click" FontSize="30" Background="Transparent"
+                    BorderBrush="Transparent" MinWidth="35" />
+        </StackPanel>
+        <!-- #endregion -->
+    </Grid>
+</Window>

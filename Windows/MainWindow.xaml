@@ -1,0 +1,51 @@
+﻿<Window x:Class="_41_размер.Windows.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_41_размер"
+        mc:Ignorable="d"
+        Title="Вход в систему — 41 размер" 
+        Height="400" Width="375"
+        ResizeMode="CanMinimize"
+        KeyUp="Window_KeyUp">
+
+    <Grid Margin="2.5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="55*"/>
+            <ColumnDefinition Width="55*"/>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="2.5*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="65*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="40*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Text="Чтобы продолжить введите данные аккаунта. Либо продолжите в качестве гостя."
+                   TextWrapping="Wrap" FontSize="18" />
+
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Имя пользователя:" FontSize="16"/>
+        <TextBox Name="UserName_Box" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Margin="2.5" Text="{Binding Path=UserName}" 
+                 FontSize="16"/>
+
+        <TextBlock Grid.Row="4" Grid.Column="0" Text="Пароль:" FontSize="16"/>
+        <PasswordBox Name="UserPassword_PasswordBox" Grid.Row="4" Grid.Column="1" Margin="2.5" 
+                     PasswordChanged="UserPassword_PasswordBox_PasswordChanged" FontSize="16"/>
+        <TextBox Name="UserPassword_TextBox" Grid.Row="4" Grid.Column="1" Margin="2.5"
+                 Visibility="Hidden" TextChanged="UserPassword_TextBox_TextChanged" FontSize="16" />
+        <Button Name="ShowPassword" Grid.Row="4" Grid.Column="2" Margin="2.5" Content="(*)" Click="ShowPassword_Click" />
+
+        <Button Name="ContinueAsGuest" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="4" Margin="2.5"
+                Content="Продолжить как гость" Click="ContinueAsGuest_Click" FontSize="16"/>
+        <Button Name="EnterInAccount" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="4" Margin="2.5"
+                Content="Войти в аккаунт" Click="EnterInAccount_Click" FontSize="18"/>
+    </Grid>
+</Window>

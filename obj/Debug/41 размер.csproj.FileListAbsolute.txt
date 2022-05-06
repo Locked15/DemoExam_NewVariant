@@ -1,0 +1,62 @@
+C:\Users\10a\Desktop\41 размер\bin\Debug\41 размер.exe.config
+C:\Users\10a\Desktop\41 размер\bin\Debug\41 размер.exe
+C:\Users\10a\Desktop\41 размер\bin\Debug\41 размер.pdb
+C:\Users\10a\Desktop\41 размер\bin\Debug\EntityFramework.dll
+C:\Users\10a\Desktop\41 размер\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\10a\Desktop\41 размер\bin\Debug\EntityFramework.xml
+C:\Users\10a\Desktop\41 размер\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\10a\Desktop\41 размер\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\10a\Desktop\41 размер\obj\Debug\41 размер.csproj.AssemblyReference.cache
+C:\Users\10a\Desktop\41 размер\obj\Debug\41 размер.csproj.SuggestedBindingRedirects.cache
+C:\Users\10a\Desktop\41 размер\obj\Debug\Windows\MainWindow.g.cs
+C:\Users\10a\Desktop\41 размер\obj\Debug\App.g.cs
+C:\Users\10a\Desktop\41 размер\obj\Debug\41 размер_Content.g.cs
+C:\Users\10a\Desktop\41 размер\obj\Debug\41 размер_MarkupCompile.cache
+C:\Users\10a\Desktop\41 размер\obj\Debug\41 размер_MarkupCompile.lref
+C:\Users\10a\Desktop\41 размер\obj\Debug\App.baml
+C:\Users\10a\Desktop\41 размер\obj\Debug\Windows\MainWindow.baml
+C:\Users\10a\Desktop\41 размер\obj\Debug\41 размер.g.resources
+C:\Users\10a\Desktop\41 размер\obj\Debug\_41_размер.Properties.Resources.resources
+C:\Users\10a\Desktop\41 размер\obj\Debug\41 размер.csproj.GenerateResource.cache
+C:\Users\10a\Desktop\41 размер\obj\Debug\41 размер.csproj.CoreCompileInputs.cache
+C:\Users\10a\Desktop\41 размер\obj\Debug\41 размер.csproj.CopyComplete
+C:\Users\10a\Desktop\41 размер\obj\Debug\41 размер.exe
+C:\Users\10a\Desktop\41 размер\obj\Debug\41 размер.pdb
+C:\Users\10a\Desktop\41 размер\obj\Debug\Windows\ProductsWindow.g.cs
+C:\Users\10a\Desktop\41 размер\obj\Debug\Windows\ProductsWindow.baml
+C:\Users\Земфира\Desktop\Программа\obj\Debug\41 размер.csproj.AssemblyReference.cache
+C:\Users\Земфира\Desktop\Программа\obj\Debug\41 размер.csproj.SuggestedBindingRedirects.cache
+C:\Users\Земфира\Desktop\Программа\obj\Debug\Windows\MainWindow.g.cs
+C:\Users\Земфира\Desktop\Программа\obj\Debug\App.g.cs
+C:\Users\Земфира\Desktop\Программа\obj\Debug\41 размер_Content.g.cs
+C:\Users\Земфира\Desktop\Программа\obj\Debug\41 размер_MarkupCompile.cache
+C:\Users\Земфира\Desktop\Программа\obj\Debug\41 размер_MarkupCompile.lref
+C:\Users\Земфира\Desktop\Программа\obj\Debug\41 размер.exe
+C:\Users\Земфира\Desktop\Программа\obj\Debug\41 размер.pdb
+C:\Users\Земфира\Desktop\Программа\bin\Debug\41 размер.exe.config
+C:\Users\Земфира\Desktop\Программа\bin\Debug\41 размер.exe
+C:\Users\Земфира\Desktop\Программа\bin\Debug\41 размер.pdb
+C:\Users\Земфира\Desktop\Программа\bin\Debug\EntityFramework.dll
+C:\Users\Земфира\Desktop\Программа\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Земфира\Desktop\Программа\bin\Debug\EntityFramework.xml
+C:\Users\Земфира\Desktop\Программа\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Земфира\Desktop\Программа\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Земфира\Desktop\Программа\obj\Debug\UserControls\ProductListItem.g.cs
+C:\Users\Земфира\Desktop\Программа\obj\Debug\App.baml
+C:\Users\Земфира\Desktop\Программа\obj\Debug\UserControls\ProductListItem.baml
+C:\Users\Земфира\Desktop\Программа\obj\Debug\Windows\MainWindow.baml
+C:\Users\Земфира\Desktop\Программа\obj\Debug\41 размер.g.resources
+C:\Users\Земфира\Desktop\Программа\obj\Debug\_41_размер.Properties.Resources.resources
+C:\Users\Земфира\Desktop\Программа\obj\Debug\41 размер.csproj.GenerateResource.cache
+C:\Users\Земфира\Desktop\Программа\obj\Debug\41 размер.csproj.CoreCompileInputs.cache
+C:\Users\Земфира\Desktop\Программа\obj\Debug\41 размер.csproj.CopyComplete
+C:\Users\Земфира\Desktop\Программа\obj\Debug\UserControls\OrderListItem.g.cs
+C:\Users\Земфира\Desktop\Программа\obj\Debug\Windows\EditWindows\EditProductWindow.g.cs
+C:\Users\Земфира\Desktop\Программа\obj\Debug\Windows\EditWindows\OrderFormation.g.cs
+C:\Users\Земфира\Desktop\Программа\obj\Debug\Windows\DisplayWindows\OrdersWindow.g.cs
+C:\Users\Земфира\Desktop\Программа\obj\Debug\Windows\DisplayWindows\ProductsWindow.g.cs
+C:\Users\Земфира\Desktop\Программа\obj\Debug\UserControls\OrderListItem.baml
+C:\Users\Земфира\Desktop\Программа\obj\Debug\Windows\EditWindows\EditProductWindow.baml
+C:\Users\Земфира\Desktop\Программа\obj\Debug\Windows\EditWindows\OrderFormation.baml
+C:\Users\Земфира\Desktop\Программа\obj\Debug\Windows\DisplayWindows\OrdersWindow.baml
+C:\Users\Земфира\Desktop\Программа\obj\Debug\Windows\DisplayWindows\ProductsWindow.baml

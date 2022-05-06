@@ -1,0 +1,71 @@
+﻿<Window x:Class="_41_размер.Windows.OrderFormation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_41_размер.Windows"
+        mc:Ignorable="d"
+        Title="Настройка заказа — 41 размер" 
+        Height="600" Width="800"
+        MinHeight="575" MinWidth="775"
+        Loaded="Window_Loaded"
+        SizeChanged="Window_SizeChanged">
+
+    <Grid Margin="2.5">
+        <!-- #region Область: Технические элементы. -->
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="370*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="60*"/>
+        </Grid.RowDefinitions>
+        <!-- #endregion -->
+        
+        <!-- #region Область: Верхняя панель. -->
+        
+        <TextBlock Name="UserInfoDesc" Grid.Row="0" Grid.Column="0" Text="Пользователь:" FontSize="20" />
+        <TextBlock Name="UserInfo" Grid.Row="0" Grid.Column="1" Text="{Binding Path=CurrentOrder.User.FullName}" FontSize="20" />
+
+        <TextBlock Grid.Row="0" Grid.Column="2" Text="Код получения:" FontSize="20" />
+        <TextBlock Grid.Row="0" Grid.Column="3" Text="{Binding Path=CurrentOrder.TakeCode}" FontSize="20" />
+
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Место получения:" FontSize="20" />
+        <ComboBox Name="PickerPoint" Grid.Row="1" Grid.Column="1" DisplayMemberPath="Point" SelectionChanged="PickerPoint_SelectionChanged" />
+
+        <TextBlock Grid.Row="1" Grid.Column="2" Text="Дата получения:" FontSize="20" />
+        <DatePicker Name="SelectDeliveryDate" Grid.Row="1" Grid.Column="3" SelectedDate="{Binding Path=CurrentOrder.OrderDeliveryDate, StringFormat=dd.MM.yyyy}" FontSize="20" />
+
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Стоимость:" FontSize="20" />
+        <TextBlock Name="OrderFinalCost" Grid.Row="2" Grid.Column="1" FontSize="20" />
+
+        <TextBlock Grid.Row="2" Grid.Column="2" Text="Итоговая скидка:" FontSize="20" />
+        <TextBlock Name="OrderFinalDiscount" Grid.Row="2" Grid.Column="3" FontSize="20" />
+        <!-- #endregion -->
+
+        <ListView Name="ProductsInOrder_ListView" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4" SelectionMode="Single" 
+                  SelectionChanged="ProductsInOrder_ListView_SelectionChanged" />
+
+        <!-- #region Область: Нижняя панель. -->
+
+        <TextBlock Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Text="Количество товара:" FontSize="20" />
+        <TextBox Name="CurrentProductCount" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" FontSize="20" 
+                 TextChanged="CurrentProductCount_TextChanged" />
+
+        <Button Name="GeneratePdfDocumentation" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Content="Сформировать накладную" FontSize="20" 
+                Click="GeneratePdfDocumentation_Click" />
+        <Button Name="SaveOrderInDb" Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="2" Content="Сохранить заказ" FontSize="20"
+                Click="SaveOrderInDb_Click" />
+        <!-- #endregion -->
+    </Grid>
+</Window>
